@@ -75,6 +75,7 @@ class ATM {
 
 public class ATMSystem {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         
         // Simulate User Login (PIN-based)
